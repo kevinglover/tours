@@ -354,9 +354,9 @@ h1.tour-name.ui-title {
 }
 
 .tour-stop-detail .ui-title{
-    width: 66%;
+    width: 60%;
     text-align: left;
-    font-size: 1.25em;
+    font-size: 1.15em;
     margin: 0 25px;
     padding-top: 0px;
     font-weight: bold;
