@@ -178,7 +178,7 @@ h1.tour-name.ui-title {
     min-height: 20em;
     position: relative;
     font-size: 0.8em;
-    padding:2em 0;
+    padding: 2em 0 10em;
 }
 
 @media (min-width:767px){
@@ -190,7 +190,7 @@ h1.tour-name.ui-title {
 #home-content .jumbotron .container{
     background: rgba(255, 255, 255, 0.89);
     display: block;
-    padding: 2em 10% 1em;
+    padding: 3em 10% 1em;
     color: #EEE;
     width: 80%;
     position: absolute;
@@ -354,9 +354,9 @@ h1.tour-name.ui-title {
 }
 
 .tour-stop-detail .ui-title{
-    width: 60%;
+    width: 66%;
     text-align: left;
-    font-size: 1.15em;
+    font-size: 1.25em;
     margin: 0 25px;
     padding-top: 0px;
     font-weight: bold;
@@ -446,6 +446,12 @@ a.back-btn.ui-btn:hover:before, a.back-btn.ui-btn:focus:before{
     background-color: #99E9BC;
     border-color: #A6E2C8;
     text-shadow: 0 1px 0 #BEFFD6;
+}
+
+@media(min-width:767px){
+    .ui-page-theme-a .ui-btn.ui-btn-c{
+        max-width: 18em;
+    }
 }
 
 .ui-page-theme-a .ui-btn.ui-btn-c:hover,
